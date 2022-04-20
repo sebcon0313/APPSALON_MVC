@@ -1,0 +1,23 @@
+{
+    "name": "sebcon/app-salon_php_mvc_js_sass",
+    "description": "proyecto PHP 8, MVC, SQL",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Models\\" : "./models",
+            "Clases\\" : "./clases"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sebastian Contreras",
+            "email": "sebcon0313@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
